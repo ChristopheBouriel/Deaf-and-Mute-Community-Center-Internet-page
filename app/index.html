@@ -1,0 +1,890 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Portfolio développeur web junior">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portfolio</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/modernizr.js -->
+    <script src="scripts/modernizr.js"></script>
+    <!-- endbuild -->
+    
+    <style>
+      html {
+        scroll-behavior:smooth;
+      }      
+    </style>
+  </head>
+  <body id="page-top">
+    <header class="container-fluid">
+      <div class="row mb-5"> 
+        <div class="col-12 text-center text-sm-left pl-sm-1">
+          <h1>Deaf & Mute Community Center</h1>
+        </div>       
+      </div>      
+      <div class="row no-gutters">        
+        <p class="col-sm-7 offset-sm-5 col-md-6 offset-md-6 mb-0 pr-sm-5 text-center text-sm-right name">Blabla</p>
+        <p class="col-sm-6 offset-sm-6 text-center text-sm-right pr-sm-4 profession">Discover our actions</p>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <a class="navbar-brand" href="#page-top">Sections</a>
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent"><a class="nav-link text-white" href="#about">About us</a></li>
+          <li class="nav-item" data-toggle="collapse" data-target="#navbarSupportedContent"><a class="nav-link text-white" href="#contact">Contact</a></li>
+          <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle text-white" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Activities</a>
+             <div class="dropdown-menu"  data-toggle="collapse" data-target="#navbarSupportedContent">
+                <h4 class="dropdown-header">What you can buy from us</h4>              
+                <a class="dropdown-item mt-1 mb-2" href="#boutique">Boutique</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item mt-1 mb-2" href="#restaurant">Restaurant</a>
+                <h4 class="dropdown-header">Children activities</h4>                
+                <a class="dropdown-item mt-1" href="#Weaving">Weaving</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#sewing">Sewing</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#gardening">Gardening</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#farming">Farming</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item mb-2" href="#cooking">Cooking</a>
+              </div>
+          </li>
+        </ul> 
+                 
+      </div>
+    </nav>
+    <main>
+      <div class="container my-2">
+        <div class="row no-gutters" id="whole_page">
+          <!-- <section class="col-12 mt-5">
+            <h2 class="mb-5">Message du développeur</h2>
+            <p>Je viens d'obtenir mon diplôme à l'issue de mon parcours, et durant huit mois j'ai préféré investir mon temps
+               dans l'approfondissement de mes connaissances et l'amélioration de mon code.<br>
+              A présent en recherche d'emploi et poursuivant continuellement mon apprentissage afin d'améliorer mes compétences et de les élargir, notamment en y intégrant 
+              l'utilisation de Docker ou des services cloud pour le déploiement par exemple, 
+              je ne peux consacrer qu'un temps limité à l'élaboration de ce portfolio. Certains points de l'esthétique et certaines des couleurs sont par exemple à revoir,
+              mais j'ai privilégié l'aspect fonctionnel... et un responsive design soigneusement étudié pour toutes les tailles d'écran.<br>
+              Bien sûr j'améliore ceci progressivement, mais en tant que développeur web, je me sens tout de même obligé de le préciser en vous demandant d'être indulgent 😉
+            </p>            
+          </section> -->       
+          <section class="col-12 my-5" id="about">
+            <div class="anchors mb-5" ></div>
+            <h2 class="mb-5">About us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a class="text-decoration-none" href="https://linkedin.com/in/cbouriel" target="blank" style="color: blue; font-weight: 500"> LinkedIn</a>...
+              </p>
+              <div class="row">
+              <a class="col-4 text-center mx-auto my-4 button text-decoration-none" href="images/CV-Christophe-Bouriel-Développeur-Web.pdf" target="blank">PDF document to upload ?</a>
+              </div>             
+          </section>
+          <section class="col-12 pt-5 work">
+            <h2 class="mb-5">Projets personnels</h2>
+            <div class="anchors" id="projet-p-1"></div>
+            <article class="row no-gutters mx-auto">
+              <h3 class="col-12 text-center mb-4">Fellows SharePlace</h3>
+              <div class="col-md-8 col-lg-12 px-3 mb-4 order-2 order-md-1">
+                <div class="intro my-1">
+                  <h4>
+                    Bref aperçu du projet :
+                  </h4>
+                  <p>
+                    Partant sur la base de mon dernier projet de formation qui consistait à réaliser le MVP d'un réseau social d'entreprise – pour plus d'informations, 
+                    voir le descriptif en cliquant <a href="#projet-5" style="color: blue; font-weight: 500">ici</a> – j'ai décidé de l'améliorer et l'enrichir progressivement en m'efforçant, sur chaque point travaillé,  
+                    de le rapprocher autant que possible de ce que l'on peut attendre d'un site actuel et engageant sur Internet.<br>
+                    Vous trouverez le détail de ce qui est déjà en place en cliquant sur "Fonctionnalités" ci-dessous.<br>
+                    <br>
+                    Note : L'application entière est disponible en version Docker – voir le bouton plus bas pour suivre le lien vers le repository avec toutes les instructions.
+                  </p>
+                  <details>
+                    <summary>Fonctionnalités</summary>
+                    <br>
+                    <p class="projet-perso py-3">
+                      Toutes les requêtes font l'objet d'une authentification avec un token, celui-ci permettant également une vérification supplémentaire pour le modérateur.<br>
+                      Pour en savoir plus sur la sécurisation de l'API, voir le projet initial dans la partie "Réalisations en formation" en cliquant le lien "ici" mentionné ci-dessus.<br>
+                      <br>
+                      <span>Inscription :</span><br>
+                       - formulaire simple et rapide à compléter  – la photo de profil sera éventuellement ajoutée en éditant celui-ci plus tard<br>
+                       - tous les champs sont vérifiés et un message approprié est affiché dès qu'une erreur ou un caractère non autorisé est détecté<br>
+                       - mot de passe fort avec confirmation qui subira un hash avant insertion dans la base de données.<br>
+                       - vérification de l'unicité du nom d'utilisateur<br>
+                       <br>
+                      <span>Liste :<br></span>
+                      Ici, dans l'ordre chronologique, toutes les publications des utilisateurs avec :<br>
+                       - un aperçu du texte<br>
+                       - la photo de profil de l'auteur et son nom que l'on peut cliquer pour accéder au profil<br>
+                       - la date et l'heure au format français<br>
+                       - le nombre de commentaires et de "J'aime" : en cliquant sur ceux-ci, on accède également à la publication avec la liste concernée déjà ouverte.<br>
+                       - un bouton pour la visualiser<br>
+                       <br>
+                      <span>Publication :</span><br>
+                      En consultant une publication, on peut voir celle-ci et tous les commentaires la concernant.<br>
+                      <span class="sub"> Pour la publication, on a :</span><br>
+                       - la photo de profil de l'auteur et son nom que l'on peut cliquer pour accéder au profil<br>
+                       - la date et l'heure au format français<br>
+                       - une icône pour mettre un "J'aime"<br>
+                       - si elle a été modifiée  – en cliquant sur cette mention on verra s'afficher la date et l'heure de la dernière modification<br>
+                       - si l'on est l'auteur, un bouton pour modifier et un pour supprimer  – demandant confirmation par la suite<br>
+                       - un petit panneau de boutons pour : commenter, retourner à la liste, voir le profil ou, si l'on est l'auteur, éditer la publication<br>
+                       - le nombre de "J'aime" et de commentaires : la liste concernée apparait et disparait alternativement au clic sur chacun, 
+                       et en cliquant les noms de la liste on peut consulter le profil puis revenir directement à la publication.<br>
+                       <span class="sub"> Pour chacun des commentaires, on a :</span><br>
+                       - la photo de profil de l'auteur et son nom que l'on peut cliquer pour accéder au profil<br>
+                       - la date et l'heure au format français<br>
+                       - s'il a été modifié  – en cliquant sur cette mention on verra s'afficher la date et l'heure de la dernière modification<br>
+                       - si l'on est l'auteur, un bouton pour modifier et un pour supprimer  – demandant confirmation par la suite<br>
+                       Les emojis sont acceptés dans le corps des messages et la rubrique "A propos de moi" du profil.<br>
+                      <br>
+                      <span>Profil :</span><br>
+                      On y trouve évidemment les informations renseignées par l'utilisateur, avec sa photo de profil ou l'image par défaut, ainsi que la liste de toutes ses publications 
+                      sous forme d'aperçu.<br>
+                      Depuis là on peut accéder à la liste des utilisateurs et aller à leur profil en cliquant sur leur nom, ou utiliser une fenêtre de recherche  – suggestion de correspondances partielles et autocomplétion.<br>
+                      Si l'on venait d'une publication, un bouton apparait pour y retourner directement.<br>
+                      Si l'on consulte son propre profil, on peut l'éditer et accéder aux paramètres.<br>
+                      <span class="sub"> Edition :</span><br>
+                       - on peut ajouter une photo de profil, puis la changer ou l'effacer pour revenir à l'image par défaut, indépendemment du reste du profil<br>
+                      <span class="sub"> Paramètres :</span><br>
+                       - changement du mot de passe<br>
+                       - changement du nom d'utilisateur  – celui-ci est immédiatement modifié partout où il peut apparaître<br>
+                       - suppression du compte  – toutes les données seront effacées, sauf les commentaires pour lesquels le nom d'utilisateur sera remplaçé par "Utilisateur désinscrit"<br>                      
+                      <br>
+                      <span>Modération :</span><br>
+                      Lors de la connexion avec un profil "Modérateur", un bouton Admin apparait dans le menu et donne accès à toutes les contributions des utilisateurs depuis la dernière déconnection.<br>
+                      Pour chaque publication ou commentaire, un bouton permet de modérer ou rétablir : en cas de modération, l'élément concerné n'est pas effacé, mais le contenu n'est plus visible et remplaçé par la mention 
+                      "Contenu masqué suite à modération". Si c'est une publication, elle restera dans la liste mais ne sera plus accessible, sauf pour l'auteur ou le modérateur  –  le fait que celui-ci ne puisse 
+                      les effacer ou supprimer un compte est un choix de conception.<br>
+                      <br>
+                      <span>Notifications :</span><br>
+                      L'utilisateur est notifié en cas de commentaire ou de like sur l'une de ses publications. En cliquant dessus, il est amené directement à cette dernière et la notification disparait de la liste.<br>
+                      Il l'est également si l'un de ses commentaires ou l'une de ses publications a été modéré : la notification reste présente tant que l'élément n'a pas été effacé ou la modération levée.<br>
+                      <br>
+                      Bien que s'efforçant d'être assez complète, cette "notice" n'est pas totalement détaillée,
+                      par exemple en ce qui concerne l'affichage des boutons et la navigation, réfléchie pour être suffisamment facile et intuitive, 
+                      mais qu'il est difficile de décrire entièrement ici sans alonger et alourdir encore cette section.<br>
+                    </p>
+                  </details>
+                </div>
+                <div>
+                  <div class="row no-gutters">
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="infos-frame infos-frame__p5">
+                      <h5>Langages</h5>
+                        <ul>
+                          <li>HTML5</li>
+                          <li>CSS3</li>
+                          <li>JavaScript</li>
+                          <li>TypeScript</li>                          
+                          <li>SQL</li>
+                        </ul>
+                      </div>  
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="infos-frame infos-frame__p5">
+                      <h5>Frameworks / BDD</h5>
+                        <ul>
+                          <li>Angular 10.0.5</li>
+                          <li>Bootstrap 4.5.2</li>
+                          <li>Node.js 14.5.0</li>
+                          <li>Express</li>
+                          <li>MySQL 8.0</li>
+                        </ul>
+                      </div>  
+                    </div>                  
+                    <div class="col-lg-4">
+                      <div class="row no-gutters services">
+                        <h5 class="col-12">Services Cloud utilisés</h5>
+                        <ul class="col-6 first-col my-0 ">
+                          <li>Netlify</li>
+                          <li>Heroku</li>
+                        </ul>
+                        <ul class="col-6 pl-5 my-0 ">
+                          <li>JawsDB</li>
+                          <li>Cloudinary</li>
+                        </ul>                        
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="links row no-gutters my-3">
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://shareplace-evo.netlify.app" target="blank">Voir le site déployé</a>
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://github.com/ChristopheBouriel/SharePlace-Evo-Docker.git" target="blank">Voir le repository Docker</a>                    
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://github.com/ChristopheBouriel/SharePlace-Evolution-UI.git" target="blank">Voir le repository front</a>
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://github.com/ChristopheBouriel/SharePlace-Evo-API-deploy-2.git" target="blank">Voir le repository back</a> 
+                  </div>
+                  <div class="row no-gutters">
+                    <h5 class="col-11 mx-auto">Evolutions du projet</h5>
+                    <div class="col-11 mx-auto pt-3 comments">
+                      <p>Dans un premier temps je me suis surtout attaché à revoir le code, appliquer mes nouvelles connaissances et les bonnes pratiques, ainsi que corriger 
+                        et améliorer tout ce qui n'avait pu l'être faute de temps avant ma soutenance orale... et source d'un peu de frustration par ailleurs.<br>
+                        <br>
+                        Ainsi, entre autres choses, j'ai :<br>
+                         - entièrement revu les formulaires, les validateurs et leurs messages d'aide à la saisie.<br>
+                         - fait en sorte que la saisie des emojis soit possible pour les publications, les commentaires et dans l'un des champs du profil.<br>
+                         - ajouté une photo de profil avec toutes les fonctionalités requises – ajout, changement et suppression puis retour à l'image par défaut.<br>
+                         - implémenté une fonction de Like pour les publications, qui permet aussi d'accéder directement au profil des utilisateurs ayant mis un "J'aime" 
+                         depuis la liste et de revenir à celle-ci.
+                         - géré les scrolls pour la navigation de manière à arriver ou revenir au bon niveau sur les pages
+                        Enfin, parce que c'était une nécessité primordiale et afin qu'il soit mieux accordé au responsive, j'ai presque entièrement repris le design général, notamment en intégrant les photos de profils dans les commentaires, les publications et la 
+                        liste des utilisateurs, de même que tout ce qui concerne les Likes. Le menu a été entièrement retravaillé pour être répliable et toujours apparent, et l'accessibilité n'a pas été oubliée.
+                      </p>
+                      <p>A venir, si le temps le permet pour certains points :<br>
+                       - afficher le nombre de notifications dans le bouton du menu, sous forme de badge<br>
+                       - publication de photos, gifs, vidéos...<br>
+                       - réinitialisation du mot de passe<br>
+                       - utliser le lazy loading<br>
+                       - amélioration des fonctionnalités de modération – au moins permettre de gérer individuellement la conservation ou l'effacement des notifications concernant chaque publication ou commentaire, 
+                       au lieu de n'avoir que la liste entre deux connections, renouvellée à chaque fois<br>
+                       - permettre de répondre directement à un commentaire<br>
+                      </p>
+                    </div>
+                  </div>
+              </div>              
+              <aside class="shareplace-evo-pic row no-gutters col-md-4 col-lg-12 mx-auto px-md-3 pl-md-0 pl-lg-3 order-1 order-md-2">
+                <div class="col-11 col-lg-5 mx-auto my-auto mt-md-1 d-none d-md-block">
+                <img src="images/shareplace-evo-profil.png" alt="capture d'écran publication">
+                </div>
+                <div class="shareplace-evo-pic col-11 col-lg-5 mx-auto d-none d-md-block d-lg-none my-auto">
+                  <img src="images/shareplace-evo-list.png" alt="capture d'écran liste">
+                </div>
+                <div class="shareplace-evo-pic col-11 col-lg-5 mx-auto mb-3 my-md-auto">
+                <img src="images/shareplace-evo-post.png" alt="capture d'écran profil">
+                </div>
+                <div class="shareplace-evo-pic col-11 col-lg-5 mx-auto d-none d-md-block d-lg-none my-auto">
+                  <img src="images/shareplace-evo-notif.png" alt="capture d'écran notifications">
+                </div>
+              </aside>
+            </article>
+            <div class="anchors" id="projet-p-2"></div>
+            <article class="row no-gutters mx-auto">
+              <h3 class="col-12 text-center mb-4">VizSound</h3>
+              <div class="col-md-8 col-lg-12 px-3 mb-4 order-2 order-md-1">                
+                <div class="intro my-1">
+                  <h4>
+                    Bref résumé du sujet :
+                  </h4>
+                  <p>Ceci est une sorte de projet de démonstration réalisé en vue d'un entretien technique, principalement pour montrer comment j'utilisais les Observables
+                     et Angular pour gérer les événements et les données entrantes qui doivent être affichées en temps réel dans un graphique dynamique.
+                  </p>
+                  <details>
+                    <summary>Détails</summary>
+                    <br>
+                    <p class=" py-3">
+                      Afin de fournir ce dernier en données, j'ai décidé de prendre un streaming mp3 provenant d'Internet et d'utiliser l'API Web Audio pour générer des
+                       données changeantes : j'avais juste besoin d'appeler  dans mon code la méthode getByteFrequencyData () d'un AnalyserNode créé dans une instance
+                        d'AudioContext pour simuler l'arrivée de nouvelles données d'un flux.
+                      <br>
+                      <br>
+                      Cette arrivée de données restant malgré tout prévisible et régulière car déclenchée par mon application, j'ai décidé de construire un petit cache
+                       pour celles-ci afin d'estimer leur tendance d'évolution sur les trois dernières valeurs de chaque segment du graphe des fréquences :<br>
+                      - si les trois sont montantes, alors la tendance est estimée à la hausse : affichage d'un / dans la ligne du bas et couleurs d'un vert et bleu plus foncés<br>
+                      - si elles sont descendantes, l'estimation est à la baisse : affichage d'un \ et couleurs d'un vert et bleu moins foncés<br>
+                      - dans les autres cas de figure elle est estimée stable : affichage d'un – et couleurs verte et bleue initiale<br>
+                      Ensuite ces tendances sont comparées à celles du cycle précédent, qui ont été enregistrées dans un array, et une valeur n'est émise pour un segment que s'il y a eu changement.<br>
+                      Mon but n'étant pas de construire un algorithme, l'analyse n'est pas des plus raffinée mais on peut assez facilement imaginer extraire d'autres informations à partir
+                      des chiffres – ceci-dit j'ai réglé la fréquence des captures de données à 80 ms après quelques essais,
+                       pour trouver un équilibre entre une plus grande pertinence des valeurs et un aspect graphique plus agréable.
+                       <br>
+                       <br>
+                       J'ai choisi de ne pas utiliser d'élément canvas pour dessiner les graphiques et j'ai préféré tout gérer avec mon template Angular et les bindings car c'était plus lié à mon sujet.
+                       <br>
+                       Dans le même ordre d'idées, je n'ai pas utilisé de pattern redux et je m'en suis tenu aux observables de RxJS qui vient avec l'initialisation d'un projet Angular.
+                       <br>
+                       Par ailleurs, le sujet étant initialement la gestion de l'événementiel au sens large, je l'ai donc fait aussi avec eventListeners dans le service audio. Ceux-ci permettent notamment la détection
+                        de disponibilité du flux, ou sa mise en pause à cause d'une politique d'autoplay imposant une action de l'utilisateur.
+                       <br>
+                       <br> 
+                    </p>
+                  </details>                 
+                </div>
+                <div>
+                  <div class="row no-gutters">
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="infos-frame">
+                        <h5>Langages</h5>
+                        <ul>
+                          <li>HTML5</li>
+                          <li>CSS3</li>
+                          <li>TypeScript</li>
+                        </ul>
+                      </div>  
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="infos-frame infos-frame__p2">
+                        <h5>Frameworks</h5>
+                        <ul>
+                          <li>Angular 10.0.5</li>
+                          <li>Bootstrap 4.6.0</li>
+                        </ul>
+                      </div>  
+                    </div>                  
+                    <div class="col-lg-4">
+                      <div class="row no-gutters duration">
+                        <h5 class="col-12 col-sm-8 col-lg-12">Durée du projet</h5>
+                        <p class="col-12 col-sm-4 col-lg-12 pl-4">4-5 jours</p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="links row no-gutters my-3">
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://viz-sound.netlify.app/" target="blank">Voir l'application</a>
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://github.com/ChristopheBouriel/Viz-Sound-Streaming.git" target="blank">Voir le repository</a>                   
+                  </div>
+                  <div class="row no-gutters">
+                    <h5 class="col-11 mx-auto">Commentaires</h5>
+                    <div class="col-11 mx-auto pt-3 comments">
+                      <p>
+                      Même s'il n'était pas prévu au départ de m'occuper autant de l'UX pour ce projet dont j'aimais bien l'aspect minimaliste,
+                       j'ai tout de même apporté un minimum d'attention à ce dernier : formulaire réactif, animation de départ, message d'erreur ou
+                       de fin de stream, affichage du bouton approprié en fonction de la situation – "Pause" si la lecture a démarré automatiquement, "Play" si le navigateur
+                        l'a mis en pause, "Resume" si l'on souhaite reprendre – et bien sûr, comme toujours, le responsive.
+                        <br>
+                        <br>
+                        Afin d'être sûr de ne pas avoir de problème de mixed content ou de CORS en fonction du navigateur ou du serveur dont provient le stream, 
+                        vous pouvez essayer l'application avec un titre dont voici le lien, qu'il vous suffit donc de copier-coller :<br>
+                        <span>https://res.cloudinary.com/cbpicstore/video/upload/v1620384478/Music/Demo-Track.mp3</span>
+                        <br>
+                        <br>
+                        A noter : Le temps de lecture ne peut être exact, ne serait-ce que du fait qu'il ne tient pas compte du temps d'exécution des instructions – mais disons que le côté approximatif de cette
+                         information va avec l'esprit minimaliste souhaité, la dérive étant de 1 à 2 secondes par minute le plus souvent
+                      </p>
+                    </div>                    
+                  </div>
+              </div>              
+              <aside class="row no-gutters col-md-4 col-lg-12 mx-auto pr-3 pl-3 pl-md-0 pl-lg-3 mb-md-4 order-1 order-md-2">
+                <div class="viz-sound-pic col-11 col-lg-5 mx-auto d-none d-md-block d-lg-none my-auto">
+                  <img src="images/viz-sound-1.png" alt="capture d'écran acceuil VizSound">
+                </div>
+                <div class="viz-sound-pic col-11 col-lg-5 mx-auto d-none d-md-block d-lg-none my-auto">
+                  <img src="images/viz-sound-2.png" alt="capture d'écran lancement VizSound">
+                </div>
+                <div class="viz-sound-pic col-11 col-lg-5 mx-auto mb-3 my-md-auto d-none d-lg-block">
+                  <img src="images/viz-sound-5.png" alt="captures d'écran lancement et lecture VizSound">
+                </div>
+                <div class="viz-sound-pic col-11 col-lg-5 mx-auto mb-3 my-md-auto">
+                  <img src="images/viz-sound-3.png" alt="capture d'écran lecture VizSound">
+                </div>
+                <div class="viz-sound-pic col-11 col-lg-5 mx-auto mb-3 my-md-auto d-none d-md-block d-lg-none">
+                  <img src="images/viz-sound-4.png" alt="capture d'écran fin de lecture VizSound">
+                </div>                                                
+              </aside>
+            </article>
+          </section>  
+          <section class="col-12 pt-5 work">
+            <h2 class="mb-5">Children activities</h2>
+            <div class="anchors" id="weaving"></div>
+            <article class="row no-gutters mx-auto">
+              <h3 class="col-12 text-center mb-4">Weaving</h3>
+              <div class="col-md-8 col-lg-12 px-3 mb-4 order-2 order-md-1">
+                <div class="intro my-1">
+                  <h4>
+                    Briefly:
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <details>
+                    <summary>More infos</summary>
+                    <br>
+                    <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      <br>
+                    </p>
+                  </details>
+                </div>
+                <div>
+                  <div class="row no-gutters">
+                    <div class="col-sm-6 col-lg-4 ">
+                      <div class="infos-frame">  
+                        <h5>Langages</h5>
+                          <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>SASS</li>
+                          </ul>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="infos-frame infos-frame__p1">
+                        <h5>Outils / Frameworks</h5>
+                        <ul>
+                          <li>Yeoman</li>
+                          <li>Framework interdit... mais j'aime Flex</li>
+                        </ul>
+                      </div>
+                    </div>                  
+                    <div class="col-lg-4">
+                      <div class="row no-gutters duration">
+                        <h5 class="col-12 col-sm-8 col-lg-12">Durée du projet</h5>
+                        <p class="col-12 col-sm-4 col-lg-12 pl-4">4 semaines</p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="links row no-gutters my-3">
+                    <a class="col-sm-5 mx-auto my-2 text-center button text-decoration-none" href="https://lerestochic.netlify.app/" target="blank">Voir le site déployé</a>
+                    <a class="col-sm-5 mx-auto my-2 text-center button text-decoration-none" href="https://github.com/ChristopheBouriel/ohmyfood.git" target="blank">Voir le repository</a>                   
+                  </div>
+                  <div class="row no-gutters">
+                    <h5 class="col-11 mx-auto">Commentaires sur mon travail</h5>
+                    <div class="col-11 mx-auto pt-3 comments">
+                      <p>Utilisant SASS, j'ai organisé mes fichiers selon les principes du système 7-1, et respectant la convention BEM en jouant sur la spécificité des sélecteurs, j'ai
+                        appliqué au mieux le DRY pour éviter la duplication du code et améliorer sa lisibilité et sa maintenabilité.
+                        <br>
+                        <br>
+                        En ce qui concerne l'apparence, je me suis efforçé de reproduire fidèlement les maquettes,
+                        identifiant et retrouvant chacune des polices, travaillant les dégradés, les espacements, les marges... et ce quelque soit la taille de l'écran.<br>
+                        <br>
+                        Finalement, j'ai soigné au mieux les animations en terme d'effet et de fluidité tout en portant attention aux performances.                        
+                      </p>
+                    </div>
+                  </div>
+              </div>              
+              <aside class="row no-gutters col-md-4 col-lg-12 mx-auto pr-1 pl-1 pl-md-0 pl-lg-1 order-1 order-md-2">
+                <div class="col-11 col-lg-5 mx-auto my-auto d-none d-md-block">
+                <img src="images/lerestochic_accueil.png" alt="capture d'écran acceuil ohmyfood">
+                </div>
+                <div class="col-11 col-lg-5 mx-auto mb-3 my-md-auto resto">
+                <img src="images/lerestochic_menu.png" alt="capture d'écran menu">
+                </div>
+              </aside>
+            </article>
+            <div class="anchors" id="projet-2"></div>
+            <article class="row no-gutters mx-auto">
+              <h3 class="col-12 text-center mb-4">Concevoir un site de e-commerce</h3>
+              <div class="col-md-8 col-lg-12 px-3 mb-4 order-2 order-md-1">                
+                <div class="intro my-1">
+                  <h4>
+                    Bref résumé du sujet :
+                  </h4>
+                  <p>
+                    Le travail consistait à développer la partie front-end pour le MVP d'une application de e-commerce, en pur JavaScript et avec Bootstrap.<br> 
+                    Celle-ci devait pouvoir effectuer des requêtes auprès d'une API REST dont le code était disponible sur Github  – voir en bas des détails.<br>
+                  </p>
+                  <details>
+                    <summary>Détails</summary>
+                    <br>
+                    <p class=" py-3">
+                    L’application web devait être composée de 4 pages :<br>
+                    - une page de vue sous forme de liste, montrant tous les articles disponibles à la vente<br>
+                    - une page "produit", qui affiche de manière dynamique l'élément sélectionné par l'utilisateur et lui permet de personnaliser le produit et de l'ajouter à son panier<br>
+                    - une page "panier" contenant un résumé des produits dans le panier, le prix total et un formulaire permettant de passer une commande.<br>
+                    - une page de confirmation de commande, remerciant l'utilisateur pour celle-ci, et indiquant le prix total et l'identifiant de commande envoyé par le serveur.<br> 
+                    <br>
+                    Pour le MVP, la personnalisation du produit ne sera pas fonctionnelle : la page contenant un seul article aura un menu déroulant permettant à l'utilisateur 
+                    de choisir une option de personnalisation, mais celle-ci ne sera ni envoyée au serveur ni reflétée dans sa réponse.<br>
+                    Le code source devra devra utiliser des fonctions globales.<br>
+                    Concernant l’API, des promesses devront être utilisées pour éviter les rappels. Les inputs des utilisateurs doivent être validés avant l’envoi à l’API.<br>
+                    </p>
+                  </details>                 
+                </div>
+                <div>
+                  <div class="row no-gutters">
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="infos-frame">
+                        <h5>Langages</h5>
+                        <ul>
+                          <li>HTML5</li>
+                          <li>CSS3</li>
+                          <li>JavaScript</li>
+                        </ul>
+                      </div>  
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="infos-frame infos-frame__p2">
+                        <h5>Outils / Frameworks</h5>
+                        <ul>
+                          <li>Yeoman</li>
+                          <li>Bootstrap</li>
+                        </ul>
+                      </div>  
+                    </div>                  
+                    <div class="col-lg-4">
+                      <div class="row no-gutters duration">
+                        <h5 class="col-12 col-sm-8 col-lg-12">Durée du projet</h5>
+                        <p class="col-12 col-sm-4 col-lg-12 pl-4">5 semaines</p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="links row no-gutters my-3">
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://oriteddy.netlify.app/" target="blank">Voir le site déployé</a>
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://github.com/ChristopheBouriel/Oriteddy.git" target="blank">Voir le repository</a>                   
+                  </div>
+                  <div class="row no-gutters">
+                    <h5 class="col-11 mx-auto">Commentaires sur mon travail</h5>
+                    <div class="col-11 mx-auto pt-3 comments">
+                      <p>
+                      Même si le graphisme demeure assez simple, comme toujours parce que c'est un réflexe, j'ai apporté beaucoup d'attention au responsive 
+                      tout en soignant l'expérience utilisateur, aussi bien pour les fonctionnalités du panier que le placement des boutons en fonction des différentes tailles d'écran, 
+                      afin que l'ensemble soit aussi intuitif, efficace et agréable que possible.<br>
+                      Concernant l'esthétique générale, étant assez libre sur ce projet, j'ai essayé d'utiliser des couleurs accordées entre elles et au type de produit... même si 
+                      encore une fois le temps me manquait pour faire mieux.<br>
+                      <br>
+                      Par ailleurs, puisqu'il s'agissait d'un MVP devant donc être convaincant, même si l'API était simpliste et ne permettait pas de gérer 
+                      la personnalisation des produits, j'ai voulu que mon front-end le fasse jusqu'au bout.<br>
+                      Autre exemple, le back-end ne stockant pas les commandes effectuées par un utilisateur donné, même si cela ne peut pas être une solution pérenne, j'ai utilisé le 
+                      localStorage afin de simuler le résultat de cette fonctionnalité au 
+                      niveau du navigateur.<br>
+                      <br>
+                      La partie JavaScript est donc assez étoffée, mais bien que je n'aie pas utilisé la POO j'ai essayé de rendre mon code le plus modulaire possible.<br>
+                      Enfin, l'API n'étant pas en ligne, j'ai intégré au code les données qu'elle est sensée renvoyer afin de pouvoir tout de même déployer le site.
+                      </p>
+                    </div>                    
+                  </div>
+              </div>              
+              <aside class="oriteddy row no-gutters col-md-4 col-lg-12 mx-auto pr-3 pl-3 pl-md-0 pl-lg-3 mb-md-4 order-1 order-md-2">
+                <div class="col-11 col-lg-5 mx-auto d-none d-md-block d-lg-none my-auto">
+                  <img src="images/oriteddy_accueil_2.png" alt="capture d'écran acceuil Oriteddy">
+                </div>
+                <div class="col-11 col-lg-5 mx-auto d-none d-md-block my-auto">
+                  <img src="images/oriteddy_product.png" alt="capture d'écran produit Oriteddy">
+                </div>
+                <div class="col-11 col-lg-5 mx-auto mb-3 my-md-auto">
+                  <img src="images/oriteddy_basket_4.png" alt="capture d'écran panier Oriteddy">
+                </div>
+              </aside>
+            </article>
+            <div class="anchors" id="projet-3"></div>
+            <article class="row no-gutters mx-auto">
+              <h3 class="col-12 text-center mb-4">Optimiser un site existant</h3>
+              <div class="col-md-8 col-lg-12 px-3 mb-4 order-2 order-md-1">
+                <div class="intro my-1">
+                  <h4>
+                    Bref résumé du sujet :
+                  </h4>
+                  <p>
+                    Le travail consistait à réaliser l'analyse du site fourni de l’état actuel en termes de SEO, puis appliquer les correctifs sur 10 des défauts relevés.
+                    Vous pourrez consulter les documents livrés à l'issue de cet audit en cliquant sur ceux-ci dans la liste ci-dessous.
+                  </p>
+                  <details>
+                    <summary>Détails</summary>
+                    <br>
+                    <p class=" py-3">
+                    Les impératifs à respecter :<br>
+                    - indiquer les parties du site qui ne sont pas optimisées pour le SEO et/ou qui ne sont pas à jour en termes d’accessibilité, 
+                    et ajouter la bonne pratique à mettre en place pour chaque partie du site qui n’est pas optimisée, en citant les sources<br>
+                    - donner 10 recommandations pour améliorer le SEO du site  – bien garder en tête que le but est que le site soit mieux classé 
+                    lorsqu’on tape "Entreprise webdesign Lyon" dans les moteurs de recherche<br>
+                    - optimiser le site en appliquant les 10 recommandations à son contenu et à son code source, notamment en prenant des mesures 
+                    pour accélérer la vitesse de chargement et en garantissant l’accessibilité à tous en respectant les recommandations du WCAG<br>
+                    - fournir un rapport d’optimisation des captures d’écran comparatives entre la version du site actuelle et celle qui aura été optimisée.<br>
+                    <br>
+                    Le site doit toujours être parfaitement responsive après les modifications.
+                    </p>
+                  </details>
+                  </div>                
+                <div>
+                  <div class="row no-gutters">
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="infos-frame">
+                      <h5>Activités</h5>                      
+                        <ul>
+                          <li>Audit</li>
+                          <li>Rédaction</li>
+                          <li>Optimisation</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="infos-frame">
+                      <h5>Documents</h5>
+                        <ul>
+                          <li><a class="text-decoration-none" href="images/Tableau_Analyse.pdf" target="blank" style="color: rgb(72, 160, 13); font-weight: 500">Analyse</a></li>
+                          <li><a class="text-decoration-none" href="images/Recommandations_SEO.pdf" target="blank" style="color: rgb(72, 160, 13); font-weight: 500">Recommandations</a></li>
+                          <li><a class="text-decoration-none" href="images/Rapport_Optimisation.pdf" target="blank" style="color: rgb(72, 160, 13); font-weight: 500">Rapport</a></li>
+                        </ul>
+                      </div>  
+                    </div>                  
+                    <div class="col-lg-4">
+                      <div class="row no-gutters duration">
+                        <h5 class="col-12 col-sm-8 col-lg-12">Durée du projet</h5>
+                        <p class="col-12 col-sm-4 col-lg-12 pl-4">3 semaines</p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="links row no-gutters my-3">
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://la-chouette-agence-init.netlify.app/" target="blank">Voir le site original</a>
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://la-chouette-agence-nv.netlify.app/" target="blank">Voir le site optimisé</a> 
+                  </div>
+                  <div class="row no-gutters">
+                    <h5 class="col-11 mx-auto">Commentaires sur mon travail</h5>
+                    <div class="col-11 mx-auto pt-3 comments">
+                      <p>Outre l'important effort de recherche du maximum d'informations pertinentes, en les croisant toujours d'après plusieurs sources identifiées comme fiables, 
+                        je me suis également beaucoup investi dans le soin apporté aux documents, consacrant de nombreuses heures de réflexion à obtenir une synthèse et une 
+                        présentation les plus claires et efficaces possible.
+                        <br>
+                        <br>
+                        Par ailleurs, ne pouvant rectifier tout ce qu'il était possible dans le temps imparti, je précise ici que je me suis néanmoins efforçé d'appliquer en 
+                        premier lieu les recommandations les plus efficientes en termes de HTML et de vitesse de chargement.                        
+                      </p>
+                    </div>
+                  </div>              
+              </div>              
+              <aside class="seo row no-gutters col-md-4 col-lg-12 mx-auto pr-3 pl-3 pl-md-0 pl-lg-3 pl-xl-2 order-1 order-md-2">
+                <div class="col-11 col-lg-5 mx-auto my-auto d-none d-md-block">
+                  <img src="images/Capture_Rapport_optimisation.png" alt="capture d'écran rapport">
+                </div>
+                <div class="col-11 col-lg-5 mx-auto mr-xl-3 mb-3 my-md-auto">
+                  <img src="images/Capture_Recommandations_SEO.png" alt="capture d'écran recommandations"> 
+                </div>
+              </aside>
+            </article>
+            <div class="anchors" id="projet-4"></div>
+            <article class="row no-gutters mx-auto">
+              <h3 class="col-12 text-center mb-4">Créer une API sécurisée pour une application</h3>
+              <div class="col-md-8 col-lg-12 px-3 mb-4 order-2 order-md-1">
+                <div class="intro my-1">
+                  <h4>
+                    Bref résumé du sujet :
+                  </h4>
+                  <p>Le scénario était celui d'une entreprise souhaitant se développer et créer une application web, dans laquelle les utilisateurs 
+                    pourraient ajouter leurs sauces préférées et liker ou disliker les sauces proposées par les autres.
+                    <br> 
+                    Il s'agissait de développer la partie back-end sous forme d'une API sécurisée, sans regression sur le 
+                    front-end qui était fourni.                    
+                  </p>
+                  <details>
+                    <summary>Détails</summary>
+                    <br>
+                    <p class=" py-3">L'application devait :<br>
+                      - être hébergée par un serveur Node.js<br>
+                      - respecter les standards OWASP<br>
+                      - utiliser une base de données MongoDB, le framework Express et le plug-in Mongoose<br>
+                    <br>
+                     Les adresses mails de la base de données devaient être uniques, les erreurs être rapportées et le mot de passe des utilisateurs être chiffré.<br>
+                     Deux types de droits administrateur à la base de données devaient être définis : un accès pour supprimer ou modifier des tables, et un 
+                     accès pour éditer le contenu de la base de données.<br>
+                     Enfin, l’authentification devait être renforcée sur les routes requises en plus de 
+                     contenir un jeton valide dans son en-tête d'autorisation. <br>                                                       
+                    </p>
+                  </details>
+                </div>
+                <div>
+                  <div class="row no-gutters">
+                    <div class="col-sm-6 col-lg-4 ">
+                      <div class="infos-frame infos-frame__p4">  
+                        <h5>Langages / BDD</h5>
+                          <ul>
+                            <li>JavaScript</li>
+                            <li>MongoDB</li>
+                          </ul>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="infos-frame infos-frame__p4">
+                        <h5>Frameworks</h5>
+                        <ul>
+                          <li>Node.js 14.5.0</li>
+                          <li>Express</li>
+                        </ul>
+                      </div>
+                    </div>                  
+                    <div class="col-lg-4">
+                      <div class="row no-gutters duration">
+                        <h5 class="col-12 col-sm-8 col-lg-12">Durée du projet</h5>
+                        <p class="col-12 col-sm-4 col-lg-12 pl-4">3 semaines</p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="links row no-gutters my-3">
+                    <a class="col-sm-5 mx-auto my-2 text-center button text-decoration-none" href="https://picante.netlify.app/" target="blank">Voir le site déployé</a>
+                    <a class="col-sm-5 mx-auto my-2 text-center button text-decoration-none" href="https://github.com/ChristopheBouriel/picante-backend-deploy.git" target="blank">Voir le repository</a>         
+                  </div>
+                  <div class="row no-gutters">
+                    <h5 class="col-11 mx-auto">Commentaires sur mon travail</h5>
+                    <div class="col-11 mx-auto pt-3 comments">
+                      <p>Afin de garantir un fonctionnement conforme aux spécifications, m'efforçant notamment de suivre les recommandations de l'OWASP sur tous 
+                        les points sur lesquels je pouvais agir, j'ai utilisé des packages disponibles sur npmjs.com – express-rate-limit, xss-filters, bcrypt, 
+                        jsonwebtoken, helmet – et j'ai également implémenté des middlewares « maison » :<br>
+                        - pour vérifier que l'id du token correspond bien à celui de l'utilisateur ayant créé une sauce en cas de modification ou de suppression<br>
+                        - pour vérifier que le mot de passe correspond bien au format spécifié dans l'interface utilisateur ainsi que pour valider les inputs de 
+                        ce dernier, rien n'étant vérifié côté front-end<br>
+                        <br>
+                        En ce qui concerne le site mis en ligne, le front-end n'a subi que de légères modifications – voir le message sur la page d'accueil lors 
+                        de l'inscription ou la connexion – tandis que l'API a du être adaptée, par exemple pour le stockage et l'accès aux images des sauces qui 
+                        ne pouvait se faire sur le serveur où elle est déployée.<br>
+                        L'interface utilisateur est hébergée sur Netlify, le back-end sur Heroku, la base de donnée sur MongoDB Atlas, et les images sur Cloudinary.              
+                      </p>
+                    </div>
+                  </div>
+              </div>              
+              <aside class="picante row no-gutters col-md-4 col-lg-12 pr-3 pl-3 pl-md-0 pl-lg-3 order-1 order-md-2">
+                <div class="col-11 col-lg-5 mx-auto mb-3 my-md-auto">
+                  <img src="images/picante_accueil.png" alt="capture d'écran acceuil picante">
+                </div>
+                <div class="col-11 col-lg-5 mx-auto my-auto d-none d-md-block d-lg-none">
+                  <img src="images/picante_sauce.png" alt="capture d'écran sauce picante">
+                </div>
+                <div class="col-11 col-lg-5 mx-auto my-auto d-none d-md-block">
+                  <img src="images/picante_new.png" alt="capture d'écran nouvelle sauce">
+                </div>
+              </aside>
+            </article>
+            <div class="anchors" id="projet-5"></div>
+            <article class="row no-gutters mx-auto">
+              <h3 class="col-12 text-center mb-4">Créer un réseau social d'entreprise</h3>
+              <div class="col-md-8 col-lg-12 px-3 mb-4 order-2 order-md-1">
+                <div class="intro my-1">
+                  <h4>
+                    Bref résumé du sujet :
+                  </h4>
+                  <p>
+                    Le travail consistait à développer le MVP d'un réseau social d'entreprise, aussi bien le front-end que le back-end. 
+                    Il fallait choisir entre une fonctionnalité du type 9GAG ou Reddit et prévoir les aménagements nécessaires pour le 
+                    modérateur : j'ai opté pour la deuxième et décidé d'utiliser Angular puisque le choix du framework m'était laissé. 
+                    En revanche le back-end devait être codé en JavaScript.
+                  </p>
+                  <details>
+                    <summary>Détails</summary>
+                    <br>
+                    <p class=" py-3">
+                      Techniquement, la contrainte majeure est que le client utilise une base de données relationnelles qui se manipule avec le langage SQL pour le stockage de données. 
+                      Il faudra donc en tenir compte lors de la construction de l'application. Les données de connexion doivent également être sécurisées.
+                      <br>
+                      <br>
+                      Pour le reste, voici les exigences émises par le comité de pilotage :<br>
+                       - la Web App doit pouvoir se connecter et se déconnecter à l’application et la session de l’utilisateur persister pendant qu’il est connecté<br>
+                       - les pages doivent respecter les standards WCAG<br>
+                       - la présentation des fonctionnalités doit être simple<br>
+                       - la création d’un compte doit être simple et possible depuis un téléphone mobile<br>
+                       - le profil doit contenir très peu d’informations pour que sa complétion soit rapide<br>
+                       - la suppression du compte doit être possible<br>
+                       - les utilisateurs doivent pouvoir facilement repérer les dernières participations des employés et le ou la chargé-e de communication doit pouvoir 
+                       afficher les dernières participations des employés salariés<br>
+                       - le ou la chargé-e de communication doit pouvoir modérer les interactions entre les salariés<br>
+                    </p>
+                  </details>                
+                </div>
+                <div>
+                  <div class="row no-gutters">
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="infos-frame infos-frame__p5">
+                      <h5>Langages</h5>
+                        <ul>
+                          <li>HTML5</li>
+                          <li>CSS3</li>
+                          <li>JavaScript</li>
+                          <li>TypeScript</li>                          
+                          <li>SQL</li>
+                        </ul>
+                      </div>  
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                      <div class="infos-frame infos-frame__p5">
+                      <h5>Frameworks / BDD</h5>
+                        <ul>
+                          <li>Angular 10.0.5</li>
+                          <li>Bootstrap 4.5.2</li>
+                          <li>Node.js 14.5.0</li>
+                          <li>Express</li>
+                          <li>MySQL 8.0</li>
+                        </ul>
+                      </div>  
+                    </div>                  
+                    <div class="col-lg-4">
+                      <div class="row no-gutters duration">
+                        <h5 class="col-12 col-sm-8 col-lg-12">Durée du projet</h5>
+                        <p class="col-12 col-sm-4 col-lg-12 pl-4">5 semaines</p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="links row no-gutters my-3">
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://shareplace4u.netlify.app" target="blank">Voir le site déployé</a>
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://github.com/ChristopheBouriel/SharePlace-Docker.git" target="blank">Voir le repository Docker</a>
+                    
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://github.com/ChristopheBouriel/Projet7_front_end.git" target="blank">Voir le repository front</a>
+                    <a class="col-sm-5 mx-auto my-2 text-center text-decoration-none button" href="https://github.com/ChristopheBouriel/Projet7_back_end.git" target="blank">Voir le repository back</a> 
+                  </div>
+                  <div class="row no-gutters">
+                    <h5 class="col-11 mx-auto">Commentaires sur mon travail</h5>
+                    <div class="col-11 mx-auto pt-3 comments">
+                      <p>Étant limité dans le temps j'ai préféré développer le plus possible les fonctionnalités sur lesquelles je travaillais. 
+                      Par exemple, je n'ai pas ajouté le système de « Like » que j'avais prévu, mais j'ai implémenté une fonction de notifications 
+                      aux utilisateurs lorsqu'un autre a commenté une de leur publication, ou lorsque l'une de leurs interventions a été modérée. 
+                      Celles-ci peuvent également être modifiées à tout moment et la date de dernière modification s'affiche au clic sur le mot "modifié" 
+                      apparaissant le cas échéant.<br>
+                      <br>
+                      De la même manière, j'ai laissé de côté les photos de profil au profit de la possibilité de modifier aisément celui-ci, 
+                      ainsi que le mot de passe et le nom d'utilisateur qui évidemment change alors sur toutes les publications précédentes.<br>
+                      Il est également possible d'afficher la liste de tous les inscrits et une fenêtre de recherche est également présente pour retrouver 
+                      rapidement une personne en particulier.<br>
+                      <br>
+                      Pour ce qui est de la sécurisation de l'API, j'ai utilisé les mêmes "recettes" que lors du projet précédent – voir <a href="#projet-4" style="color: blue; font-weight: 500">Picante</a> juste au-dessus 
+                      pour plus de détails.<br>
+                      L'aspect visuel est quant à lui assez minimaliste, mais suffisant pour un MVP et parfaitement responsive. Quant aux couleurs... j'ai 
+                      simplement essayé de me conformer à la charte graphique.<br>
+                      <br>
+                      Concernant le déploiement, le front-end est hébergé sur Netlify, le back-end sur Heroku avec un addon clearDB pour la base de données MySQL, 
+                      et vous pouvez vérifier son bon fonctionnement en tant qu'utilisateur en suivant le lien ci dessus.<br>
+                      Pour ce qui est des fonctionnalités de modération, il est possible de les évaluer en utilisant la version Docker de l'application : le repository correspondant est accessible
+                       en cliquant <a href="https://github.com/ChristopheBouriel/SharePlace-Docker.git" style="color: blue; font-weight: 500" target="blank">ici</a>.
+                                  
+                    </p>
+                    </div>
+                  </div>            
+              </div>              
+              <aside class="shareplace row no-gutters col-md-4 col-lg-12 pr-3 pl-3 pl-md-0 pl-lg-3 mb-md-3 order-1 order-md-2">
+                <div class="col-11 col-lg-5 mx-auto my-auto d-none d-md-block">
+                  <img src="images/shareplace_profile.png" alt="capture d'écran profil">
+                </div>
+                <div class="col-11 col-lg-5 mx-auto my-md-auto d-none d-md-block d-lg-none">
+                  <img src="images/shareplace_list.png" alt="capture d'écran publications">
+                </div>
+                <div class="col-11 col-lg-5 mx-auto my-auto d-none d-md-block">
+                  <img src="images/shareplace_single_mod.png" alt="capture d'écran publication modérateur">
+                </div>
+                <div class="col-11 col-lg-5 mx-auto mb-3 my-md-auto d-md-block d-lg-none">
+                  <img src="images/shareplace_single.png" alt="capture d'écran publication">
+                </div>
+              </aside>
+            </article>
+          </section>
+        </div>
+      </div>
+    </main>
+    <div class="anchors" id="contact"></div>
+    <footer class="container-fluid mb-0">
+      <h2 class="text-center pt-3">Contact</h2>
+      <div class="row mt-5">
+        <p class="col-md-6 text-center">christophe.bouriel@gmail.com<br>
+            06.08.53.85.93</p>        
+        <div class="col-md-6 mb-5 text-center social">
+          <a href="https://github.com/ChristopheBouriel" target="blank"><img id="github" src="images/github.svg" alt="logo github"><span class="hidden-accessibility">Github</span></a>
+          <a href="https://linkedin.com/in/cbouriel" target="blank"><img id="linkedin" src="images/linkedin.svg" alt="logo linkedin"><span class="hidden-accessibility">LinkedIn</span></a>
+           </div>
+      </div>
+      <div id="made-with" class="text-center"><p class="py-3 mb-0">Développé avec Yeoman et Bootstrap</p></div>      
+    </footer>
+    <!-- build:js scripts/vendor.js -->
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
